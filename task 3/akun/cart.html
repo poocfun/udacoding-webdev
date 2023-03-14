@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../template/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../template/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="../template/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="../template/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../template/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="../template/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="../template/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="../template/plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #219653;">
+            <div class="container-fluid">
+                <a class="navbar-brand ml-5 font-poppins text-white" href="#" style="font-weight: bold;">HELLO UDA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal font-popins">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" style="font-weight: bold;" href="dashboard.html"
+                            aria-label="Homepage">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#event" aria-label="A sample content page">
+                            Event
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link fs-5 text-white" href="#books" aria-label="A system message page">
+                            Books
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#t-shirts" aria-label="A system message page">
+                            T-Shirts
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar-nav " style="margin-right: 90px;">
+                    <div class="user-block">
+                        <img class="img-circle " src="../template/img/ppp.jpeg" alt="user image">
+                        <span class="username">
+                            <a href="#" class="text-white">Jonathan Liandi.</a>
+                        </span>
+                        <span class="description text-white">Langganan | <text style="color: #F2C94C;">1000
+                                Point</text></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--content-->
+    <div class="container">
+        <section class="mt-5">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-bold" style="font-size: 30px;">Cart</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label mb-3" for="flexCheckDefault">
+                                    Pilih Semua
+                                </label>
+                                <div class="float-right mr-4">
+                                    <a class="text-danger text-poppins" style="font-size: 16px;" href="#">Hapus</a>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label mb-3" for="flexCheckDefault">
+                                    Event
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <div class="col-md 12">
+                                        <img src="../template/img/rapat.jpeg" width="90px" height="80px"
+                                            style="float:left; margin-right:10px;" alt="user image">
+                                        <p class="ml-2">Training Kotlin Basic | 17 NOVEMBER 2021 1:00 SIANG TO 26
+                                            NOVEMBER 2021 5:00 SORE
+                                            <br>
+                                            <button class="btn btn-success mt-3" type="button" name="button">50%
+                                            </button>
+                                            <del style="color: #BDBDBD; font-size: 14px;" class="ml-3 text-poppins">Rp
+                                                150.000</del>
+                                            <span class="ml-2 mr-4">Rp 75.000
+                                            </span>
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity"
+                                                class="form text-center input-number input-sm" value="10" min="1"
+                                                max="100" style="height: 28px; width: 45px;">
+                                            <span class="input-group-btn">
+                                                <button type="button"
+                                                    class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                    data-type="plus" data-field="">
+                                                    <span class="fa fa-plus"></span>
+                                                </button>
+                                                <a href="#" class="ml-2 btn btn-danger"><i class="fa fa-trash"></i></a>
+                                        </p>
+                                        <hr class="mt-0 mb-0">
+                                        <br>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label mb-3" for="flexCheckDefault">
+                                    Books
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <div class="col-md 12">
+                                        <img src="../template/img/books.jpeg" width="80px" height="80px"
+                                            style="float:left; margin-right:10px;" alt="user image">
+                                        <p class="ml-2">BUKU JAGO KOTLIN UDACODING | NANDO & RAFI | BEST SELLER
+                                            NOVEMBER 2021 5:00 SORE
+                                            <br>
+                                            <button class="btn btn-success mt-3" type="button" name="button">50%
+                                            </button>
+                                            <del style="color: #BDBDBD; font-size: 14px;" class="ml-3 text-poppins">Rp
+                                                150.000</del>
+                                            <span class="ml-2 mr-4">Rp 75.000
+                                            </span>
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity"
+                                                class="form text-center input-number input-sm" value="10" min="1"
+                                                max="100" style="height: 28px; width: 45px;">
+                                            <span class="input-group-btn">
+                                                <button type="button"
+                                                    class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                    data-type="plus" data-field="">
+                                                    <span class="fa fa-plus"></span>
+                                                </button>
+                                                <a href="#" class="ml-2 btn btn-danger"><i class="fa fa-trash"></i></a>
+                                        </p>
+                                        <br>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <div class="col-md 12">
+                                        <img src="../template/img/books.jpeg" width="80px" height="80px"
+                                            style="float:left; margin-right:10px;" alt="user image">
+                                        <p class="ml-2">BUKU JAGO KOTLIN UDACODING | NANDO & RAFI | BEST SELLER
+                                            NOVEMBER 2021 5:00 SORE
+                                            <br>
+                                            <button class="btn btn-success mt-3" type="button" name="button">50%
+                                            </button>
+                                            <del style="color: #BDBDBD; font-size: 14px;" class="ml-3 text-poppins">Rp
+                                                150.000</del>
+                                            <span class="ml-2 mr-4">Rp 75.000
+                                            </span>
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity"
+                                                class="form text-center input-number input-sm" value="10" min="1"
+                                                max="100" style="height: 28px; width: 45px;">
+                                            <span class="input-group-btn">
+                                                <button type="button"
+                                                    class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                    data-type="plus" data-field="">
+                                                    <span class="fa fa-plus"></span>
+                                                </button>
+                                                <a href="#" class="ml-2 btn btn-danger"><i class="fa fa-trash"></i></a>
+                                        </p>
+                                        <hr class="mt-0 mb-0">
+                                        <br>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label mb-3" for="flexCheckDefault">
+                                    T-Shirts
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <div class="col-md 12">
+                                        <img src="../template/img/baju.jpeg" width="80px" height="80px"
+                                            style="float:left; margin-right:10px;" alt="user image">
+                                        <p class="ml-2">Kaos UI/UX Combed 24s Original-NSA Premium Cotton 7200 -
+                                            M,Maroon NOVEMBER 2021 5:00 SORE
+                                            <br>
+                                            <button class="btn btn-success mt-3" type="button" name="button">50%
+                                            </button>
+                                            <del style="color: #BDBDBD; font-size: 14px;" class="ml-3 text-poppins">Rp
+                                                150.000</del>
+                                            <span class="ml-2 mr-4">Rp 75.000
+                                            </span>
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity"
+                                                class="form text-center input-number input-sm" value="10" min="1"
+                                                max="100" style="height: 28px; width: 45px;">
+                                            <span class="input-group-btn">
+                                                <button type="button"
+                                                    class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                    data-type="plus" data-field="">
+                                                    <span class="fa fa-plus"></span>
+                                                </button>
+                                                <a href="#" class="ml-2 btn btn-danger"><i class="fa fa-trash"></i></a>
+                                        </p>
+                                        <br>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <div class="col-md 12">
+                                        <img src="../template/img/baju.jpeg" width="80px" height="80px"
+                                            style="float:left; margin-right:10px;" alt="user image">
+                                        <p class="ml-2">Kaos UI/UX Combed 24s Original-NSA Premium Cotton 7200 -
+                                            M,Maroon NOVEMBER 2021 5:00 SORE
+                                            <br>
+                                            <button class="btn btn-success mt-3" type="button" name="button">50%
+                                            </button>
+                                            <del style="color: #BDBDBD; font-size: 14px;" class="ml-3 text-poppins">Rp
+                                                150.000</del>
+                                            <span class="ml-2 mr-4">Rp 75.000
+                                            </span>
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity"
+                                                class="form text-center input-number input-sm" value="10" min="1"
+                                                max="100" style="height: 28px; width: 45px;">
+                                            <span class="input-group-btn">
+                                                <button type="button"
+                                                    class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                    data-type="plus" data-field="">
+                                                    <span class="fa fa-plus"></span>
+                                                </button>
+                                                <a href="#" class="ml-2 btn btn-danger"><i class="fa fa-trash"></i></a>
+                                        </p>
+                                        <hr class="mt-0 mb-0">
+                                        <br>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="text-bold mb-0">Belanjaan Saya</p>
+                            <p class="mt-0">Total Belanjaan ( 5 barang )</p>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Total Harga: </p>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <p>Rp 375.000</p>
+                                </div>
+                            </div>
+                            <div class="row" style="line-height: 0%;">
+                                <div class="col-md-6">
+                                    <p>Total Diskon: </p>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <p>Rp 375.000</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-md-6">
+                                    <p>Point: </p>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <p>0</p>
+                                </div>
+                            </div>
+                            <hr class="mb-0 mt-0">
+                            <div class="row ">
+                                <div class="col md-6">
+                                    <p class="text-left mt-1">Total</p>
+                                </div>
+                                <div class="col md-6">
+                                    <p class="font-poppins text-bold text-right"
+                                        style="font-size: 20px; color: #219653;">Rp375.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="chekout.html" class="btn-block btn btn-success">Beli Sekarang</a>
+                                <a type="button" class="text-left btn btn-block btn-outline-secondary"><i
+                                        class="fa fa-credit-card"></i>&nbsp Point ku <i
+                                        class="float-right mt-1 fas fa-angle-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <footer class="container-fluid text-center text-lg-start" style="background-color: #219653;">
+        <img src="../template/img/uda.png" class="mt-5" style="width: 280px; height: 100px;">
+        <p class="text-white mb-0">IT Training and Software Development</p>
+        <div class="container d-flex justify-content-center py-5 mt-0">
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-linkedin"></i>
+            </button>
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-facebook"></i>
+            </button>
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-instagram"></i>
+            </button>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2018-2020 Udacaoding. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
+
+</html>

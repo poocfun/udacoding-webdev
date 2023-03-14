@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="template/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="template/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="template/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="template/plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="template/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="template/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="template/plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="template/plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #219653;">
+            <div class="container-fluid">
+                <a class="navbar-brand ml-5 font-poppins text-white" href="#" style="font-weight: bold;">HELLO UDA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal font-popins">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" style="font-weight: bold;" href="#home"
+                            aria-label="Homepage">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#event" aria-label="A sample content page">
+                            Event
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link fs-5 text-white" href="#books" aria-label="A system message page">
+                            Books
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-white" href="#t-shirts" aria-label="A system message page">
+                            T-Shirts
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar-nav mr-0 ml-0" style="margin-left: 0px;">
+
+                    <a class="nav-item nav-link text-white" href="login.html">Login</a>
+                    <a class="nav-item nav-link text-white" href="#">|</a>
+                    <a class="nav-item nav-link text-white" href="register.html">Register</a>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--content-->
+    <div class="container">
+        <section class="mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="template/img/rapat.jpeg" width="380px" height="305px">
+                </div>
+                <div class="col-md-4" style="margin-left: 20px;">
+                    <h3 class="text-bold">Training Android Kotlin Basic</h3>
+                    <p class="card-text" style="color: #000000;">17 NOVEMBER 2021 1:00 SIANG TO <br>
+                        26 NOVEMBER 2021 5:00 SORE</p>
+                    <img src="template/img/profile.jpg" width="30" height="30" class="img-circle elevation-2"
+                        alt="User Image">
+                    <a href="#" class="text-dark">Raeihan Alvaro</a>
+                    <br>
+                    <span style="color: #219653;">Type :</span><span> Offline</span>
+                    <br>
+                    <span style="color: #219653;">Kelas :</span><span> Umum</span>
+                    <p class="text-bold mb-0" style="font-size:40px;">Rp75.000</p>
+                    <del style="color: #BDBDBD;">Rp. 150.000 </del>
+                    <span class="fw-700 font-poppins text-bold mt-0"
+                        style="font-size: 14px; color: #BDBDBD; margin-top: 0px;">|</span>
+                    <span style="color: #219653;"> Diskon 50%</span>
+                    <p class="mb-0" style="color: #219653;">Reward:</p>
+                    <p class="mt-0">Mendapatkan 10 Point</p>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>Jumlah Yang Diinginkan</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button type="button"
+                                                class="quantity-left-minus btn btn-danger btn-number btn-sm"
+                                                data-type="minus" data-field="">
+                                                <span class="fa fa-minus"></span>
+                                            </button>
+                                        </span>
+                                        <input type="text" id="quantity" name="quantity"
+                                            class="form-control text-center input-number input-sm" value="10" min="1"
+                                            max="100" style="height: 30px;">
+                                        <span class="input-group-btn">
+                                            <button type="button"
+                                                class="quantity-right-plus btn btn-success btn-number btn-sm"
+                                                data-type="plus" data-field="">
+                                                <span class="fa fa-plus"></span>
+                                            </button>
+
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    </span>
+                                    <span class="mt-1">Ticket:123</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col md-6">
+
+                                </div>
+                                <div class="col md-6 text-right">
+                                    <del class="font-poppins mt-0 text-right"
+                                        style="font-size: 14px; color: #BDBDBD; margin-top: 0px;">Rp300.000</del>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col md-6">
+                                    <p class="text-left mt-1">Sub Total</p>
+                                </div>
+                                <div class="col md-6">
+                                    <p class="font-poppins text-bold text-right" style="font-size: 20px">Rp150.000</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="login.html" class="btn-block btn btn-success">Login To Participant!</a>
+                                <button type="button" class="btn btn-block btn-outline-secondary" disabled><i
+                                        class="fa fa-shopping-cart"></i>Masukkan Keranjang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid mt-4">
+            <center>
+                <div>
+                    <a class="text-center btn btn-success" href="">Information</a>
+                    <a class="text-center btn btn-outline" href="description.html">Description</a>
+                    <a class="text-center btn btn-outline" href="">Reviews (03)</a>
+                </div>
+            </center>
+            <div class="col-md-12 bordered">
+                <div class="card">
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-3">Duration:</dt>
+                            <dd class="col-sm-8">4 Hari (4 Jam)</dd>
+                            <dt class="col-sm-3">Fasilitas:</dt>
+                            <dd class="col-sm-8">Ruangan Full AC, Snack, Makan Siang, Kaos Training, Buku Training, dan
+                                Ilmu
+                                Bermanfaat</dd>
+                            <dt class="col-sm-3">Persyaratan:</dt>
+                            <dd class="col-sm-8"> Laptop baik Windows, Linux Ataupun Mac dengan RAM minimal 4GB.</dd>
+                            <dd class="col-sm-8 offset-4" style="margin-left: 290px;">
+                                <ul>
+                                    <li>Software yang dibutuhkan : Android Studio
+                                        (https://developer.android.com/studio/)</li>
+                                    <li>Flutter</li>
+                                    <li>Big Nox App Player (https://id.bixnox.com/)</li>
+                                </ul>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-5">
+            <center>
+                <p class="text-poppins fw-600 text-bold text-center" style="font-size: 36px;">OTHER RECOMMENDATION</p>
+                <p class="text-poppins fw-400 text-center" style="font-size: 14px;">Consequat accumsan integer eget
+                    ipsum. Vitae in volutpat sed risus, sapien odio <br>tellus. Dis risus integer elit.</p>
+            </center>
+        </section>
+
+
+
+        <section>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="card relative" style="width: 16.5rem;">
+                        <div class="left-book">
+                            <a class=" text-white">Best Seller</a>
+                        </div>
+                        <img src="template/img/celana.jpg" class="card-img-top" alt="..." height="175">
+                        <div class="card-body">
+                            <h5 class="card-title text-bold" stle="font-size: 24px;">Kaos Brave Kotlin</h5>
+                            <p class="card-text" style="color: #BDBDBD;">Stok:123</p>
+                            <p class="mt-2 mb-0 text-bold">Diskon: Rp 20.000</p>
+                            <del class="mt-0" style="color: #BDBDBD; font-size: 18px;">Rp 120.000</del>
+                            <p class="text-bold" style="color:#219653; font-size: 24px;">Rp 100.000</p>
+                            <div class="float-left mb-2 ml-1">
+                                <p>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    | 5.0
+                                </p>
+                            </div>
+                            <p class="mt-5" style="display: flex;">
+                            <div>Terjual: 123 | <span style="color:#219653;">10 Points</span></div>
+                            </p>
+                            <div class="button">
+                                <button class="text-center text-white btn btn">></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card relative" style="width: 16.5rem;">
+                        <div class="left-book">
+                            <a class=" text-white">Best Seller</a>
+                        </div>
+                        <img src="template/img/celana.jpg" class="card-img-top" alt="..." height="175">
+                        <div class="card-body">
+                            <h5 class="card-title text-bold" stle="font-size: 24px;">Kaos Brave Kotlin</h5>
+                            <p class="card-text" style="color: #EB5757;">Pre-Order</p>
+                            <p class="mt-2 mb-0 text-bold">Diskon: Rp 20.000</p>
+                            <del class="mt-0" style="color: #BDBDBD; font-size: 18px;">Rp 120.000</del>
+                            <p class="text-bold" style="color:#219653; font-size: 24px;">Rp 100.000</p>
+                            <div class="float-left mb-2 ml-1">
+                                <p>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    | 5.0
+                                </p>
+                            </div>
+                            <p class="mt-5" style="display: flex;">
+                            <div>Terjual: 123 | <span style="color:#219653;">10 Points</span></div>
+                            </p>
+                            <div class="button">
+                                <button class="text-center text-white btn btn">></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card relative" style="width: 16.5rem;">
+                        <div class="left-book">
+                            <a class=" text-white">Best Seller</a>
+                        </div>
+                        <img src="template/img/celana.jpg" class="card-img-top" alt="..." height="175">
+                        <div class="card-body">
+                            <h5 class="card-title text-bold" stle="font-size: 24px;">Kaos Brave Kotlin</h5>
+                            <p class="card-text" style="color: #EB5757;">Pre-Order</p>
+                            <div style="margin-top: 66px;"></div>
+                            <p class="text-bold" style="color:#219653; font-size: 24px;">Rp 100.000</p>
+                            <div class="float-left mb-2 ml-1">
+                                <p>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    | 5.0
+                                </p>
+                            </div>
+                            <p class="mt-5" style="display: flex;">
+                            <div>Terjual: 123 | <span style="color:#219653;">10 Points</span></div>
+                            </p>
+                            <div class="button">
+                                <button class="text-center text-white btn btn">></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card relative" style="width: 16.5rem;">
+                        <div class="left-book">
+                            <a class=" text-white">Best Seller</a>
+                        </div>
+                        <img src="template/img/celana.jpg" class="card-img-top" alt="..." height="175">
+                        <div class="card-body">
+                            <h5 class="card-title text-bold" stle="font-size: 24px;">Kaos Brave Kotlin</h5>
+                            <p class="card-text" style="color: #BDBDBD;">Stok:123</p>
+                            <p class="mt-2 mb-0 text-bold">Diskon: Rp 20.000</p>
+                            <del class="mt-0" style="color: #BDBDBD; font-size: 18px;">Rp 120.000</del>
+                            <p class="text-bold" style="color:#219653; font-size: 24px;">Rp 100.000</p>
+                            <div class="float-left mb-2 ml-1">
+                                <p>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    | 5.0
+                                </p>
+                            </div>
+                            <p class="mt-5" style="display: flex;">
+                            <div>Terjual: 123 | <span style="color:#219653;">10 Points</span></div>
+                            </p>
+                            <div class="button">
+                                <button class="text-center text-white btn btn">></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="container-fluid text-center text-lg-start" style="background-color: #219653;">
+        <img src="template/img/uda.png" class="mt-5" style="width: 280px; height: 100px;">
+        <p class="text-white mb-0">IT Training and Software Development</p>
+        <div class="container d-flex justify-content-center py-5 mt-0">
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-linkedin"></i>
+            </button>
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-facebook"></i>
+            </button>
+            <button class="btn btn btn-lg btn-floating mx-0" style="color: white; background-color: #219653;">
+                <i class="fab fa-instagram"></i>
+            </button>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2018-2020 Udacaoding. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
+
+</html>
